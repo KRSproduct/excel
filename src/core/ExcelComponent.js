@@ -35,7 +35,7 @@ export class ExcelComponent extends DomListener {
 		this.store.dispatch(action);
 	}
 
-	storeChanged(currentText) { 
+	storeChanged(currentText) {
 		this.$formula.text(currentText);
 	}
 
